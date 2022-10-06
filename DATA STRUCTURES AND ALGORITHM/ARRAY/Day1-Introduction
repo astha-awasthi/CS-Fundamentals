@@ -1,1 +1,39 @@
+WHAT IS ARRAY?
+
+-A linear arrangement of data of the same type of elements
+-An array has to be declared first with the maximum number of elements it can store
+SYNTAX: datatype array_name[size];
+example: int marks[100]; // marks array of integer datatype of size 100
+         char name[20]; // name array of character datatype of size 20
+
+
+HOW IS AN ARRAY STORED?
+
+Starting from a given memory location, the successive array elements are allocated space in consecutive memory locations.
+x: starting address of the array in memory
+k: number of bytes allocated per array element
+a[i] is allocated memory location at address x+i*k
+
+
+DO's AND DON'Ts IN ARRAY
+
+-You can not
+          - use = to assign one array variable to another
+          - use == to directly compare array variables
+          - directly scanf or printf arrays
+-But you can do these things on array elements.
+-You can write functions to do them. 
+
+
+APPLICATIONS OF ARRAY IN REAL LIFE
+
+- Arrays are the simplest data structures that store items of the same data type. A basic application of Arrays can be storing data in tabular format. 
+  For example, if we wish to store the contacts on our phone, then the software will simply place all our contacts in an array. 
+- Arrangement of the leader-board of a game can be done simply through arrays to store the score and arrange them in descending order to clearly make out the rank of each
+  player in the game.
+- A simple question Paper is an array of numbered questions with each of them assigned some marks.
+- For CPU scheduling in computer.
+- Online ticket booking.
+- To store the possible moves of chess on a chessboard.
+- Your viewing screen is also a multidimensional array of pixels.
 
